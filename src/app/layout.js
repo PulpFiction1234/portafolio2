@@ -1,4 +1,6 @@
 import { Inter } from "next/font/google";
+import 'bootswatch/dist/cosmo/bootstrap.min.css'
+import 'animate.css/animate.min.css'
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });

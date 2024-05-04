@@ -18,15 +18,6 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ml-auto">
-            <li className="nav-item">
-              <Link href="/github" className="nav-link">
-                Github
-              </Link>
-            </li>
-          </ul>
-        </div>
       </div>
     </nav>
   );
