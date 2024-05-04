@@ -1,8 +1,8 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
-
+import Image from "next/image";
 import { skills, experiences, projects } from "../utils/profile";
-
+import Perfil from "../../public/imagen-portafolio.jpg"
 const Index = () => (
   <Layout>
     <header className="row">
@@ -10,7 +10,7 @@ const Index = () => (
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
-              <img src="\imagen-portafolio.jpg" alt="" className="img-fluid" />
+              <Image src={Perfil} width={300} height={300} />
             </div>
             <div className="col-md-8">
               <h1>Rafael Benguria</h1>
@@ -94,7 +94,7 @@ const Index = () => (
                 <div className="col-md-4 p-2" key={index}>
                   <div className="card h-100">
                     <div className="overflow">
-                      <img src={`/${image}`} alt="" className="card-img-top" />
+                      <Image src={`/${image}`} alt="" width={300} height={300}  />
                     </div>
                     <div className="card-body">
                       <h3>{name}</h3>
