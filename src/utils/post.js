@@ -23,7 +23,7 @@ const Post = () => {
       <div className="text-center">
         <Image width={300} height={300}
           src={currentPost.imageURL}
-        
+          alt=""
         />
         <p className="p-4">{currentPost.content}</p>
       </div>
