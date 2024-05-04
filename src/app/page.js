@@ -10,7 +10,7 @@ const Index = () => (
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
-              <Image src={Perfil} alt="" width={300} height={300} />
+              <Image src={Perfil} alt="" width={376} height={500} className="img-fluid" />
             </div>
             <div className="col-md-8">
               <h1>Rafael Benguria</h1>
@@ -94,7 +94,7 @@ const Index = () => (
                 <div className="col-md-4 p-2" key={index}>
                   <div className="card h-100">
                     <div className="overflow">
-                      <Image src={`/${image}`} alt="" width={300} height={500} className="card-img-top" />
+                      <Image src={`/${image}`} alt="" width={500} height={227} className="card-img-top" />
                     </div>
                     <div className="card-body">
                       <h3>{name}</h3>
