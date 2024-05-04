@@ -16,7 +16,7 @@ const Index = () => (
               <h1>Rafael Benguria</h1>
               <h3>Full Stack Developer</h3>
               <p>
-              ¡Hola! Soy Rafael Benguria, un entusiasta de la programación Full Stack y graduado recientemente del bootcamp de la Universidad del Desarrollo. Durante mi formación, he adquirido habilidades sólidas en el desarrollo de aplicaciones web, abarcando tanto el frontend como el backend.
+              Hola Soy Rafael Benguria, un entusiasta de la programación Full Stack y graduado recientemente del bootcamp de la Universidad del Desarrollo. Durante mi formación, he adquirido habilidades sólidas en el desarrollo de aplicaciones web, abarcando tanto el frontend como el backend.
               </p>
               <p>
               Me destaco por mi capacidad para resolver problemas gracias a mi sólida comprensión de las matemáticas y la lógica. Además, tengo experiencia trabajando bajo presión, lo que me ha permitido enfrentar desafíos y encontrar soluciones efectivas.
@@ -72,7 +72,7 @@ const Index = () => (
                 <li key={index}>
                   <h3>{title}</h3>                
                   <p>
-                  "Acabo de terminar mis estudios como programador fullstack por lo que aun no adquiero experiencia laboral."
+                  Acabo de terminar mis estudios como programador fullstack por lo que aun no adquiero experiencia laboral.
                   </p>
                 </li>
               ))}
